@@ -1,0 +1,40 @@
+
+
+.post {
+    border: 1px solid #ccc;
+   
+    padding: 16px;
+    margin: 16px;
+    width: 700px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px rgba(0,                                                            0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.post:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    display: block; /* Center the button */
+    margin: 20px auto; /* Center the button horizontally */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
