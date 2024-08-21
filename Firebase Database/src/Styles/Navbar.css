@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  background-color: #393838;
+  height: 100px;
+  align-items: center;
+}
+
+.nav-link {
+  color: #FFFFF3;
+  font-weight: normal;
+  text-decoration: none;
+}
+.icon {
+  margin-right: 5px;
+} 
