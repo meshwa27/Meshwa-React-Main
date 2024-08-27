@@ -1,0 +1,107 @@
+/* Base styles */
+.navbar {
+    background-color: #28282B;
+   padding: 10px 20px;
+   
+  }
+  
+  
+  .navbar-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    color: #C0C0C0;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+    border-radius: 5px;
+  }
+  
+  .navbar-link.active {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #444;
+  }
+  
+  .navbar-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .toggle-icon {
+    font-size: 24px;
+    color: white;
+  }
+  
+  /* Off-canvas menu styles */
+  .offcanvas-menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #28282B;
+    padding: 20px;
+    transition: left 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .offcanvas-menu.open {
+    left: 0;
+  }
+  
+  .offcanvas-close {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .offcanvas-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  .offcanvas-link {
+    color: #C0C0C0;
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .offcanvas-link.active {
+    color: white;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 15px 20px; /* Reduced padding for smaller screens */
+    }
+  
+    .navbar-links {
+      display: none;
+    }
+  
+    .navbar-toggle {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .offcanvas-menu {
+      display: none;
+    }
+  }
+  
