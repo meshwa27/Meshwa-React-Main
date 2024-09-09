@@ -1,0 +1,32 @@
+.theme-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(44, 43, 43); 
+    margin-top: 50px;
+}
+
+.theme-main button {
+    margin: 0 10px; /* Add spacing between the buttons */
+    padding: 20px 40px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    transition: background-color 0.3s ease;
+}
+
+.theme-main button:hover {
+    background-color: #e0e0e0; /* Darker background on hover */
+}
+/* theme.css */
+
+.light_theme {
+    background-color: white;
+    color: black;
+}
+
+.dark_theme {
+    background-color: black;
+    color: white;
+}

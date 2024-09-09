@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(44, 43, 43)  ;
+}
+.counter-main {
+    border: 1px solid #000; /* Solid black border for the container */
+    width: 600px;
+    height: 500px;
+    margin: 50px auto; /* Center the counter horizontally with some top margin */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+}
+
+.counter-main h1 {
+    margin-bottom: 20px; /* Adjust spacing below the title */
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+.main-button {
+    display: flex;
+    justify-content: space-between;
+    width: 350px; 
+}
+
+.main-button button {
+    width: 170px; 
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5; /* Light gray background for buttons */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.main-button button:hover {
+    background-color: #e0e0e0; /* Darker background on hover */
+}
